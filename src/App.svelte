@@ -84,10 +84,17 @@
       padding: 2rem 0;
       color: yellow;
    }
-   .section-content p {
+   .section-content ul {
       color: white;
       text-align: center;
       font-size: 1.5rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+   }
+   .section-content li {
+      margin-top: 1rem;
+      font-size: 1.3rem;
    }
    footer h2 {
       color: yellow;
@@ -114,13 +121,18 @@
       <a href="https://ammoseek.com" class="logo-wrapper">
          <img src="/images/aslogo.svg" alt="AmmoSeek Logo" />
       </a>
-      <p>Do you have what it takes?</p>
+      <p>Do you have what it takes to complete the adventure?</p>
    </section>
 
    <section class="section-image">
       <div class="section-content">
          <h2>Prizes include:</h2>
-         <p>Cash and products valued at $850.00+</p>
+         <ul>
+            <li>Cash</li>
+            <li>Products</li>
+            <li>Swag</li>
+            <li>MORE!</li>
+         </ul>
       </div>
    </section>
 </main>
