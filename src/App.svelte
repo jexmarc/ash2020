@@ -106,6 +106,10 @@
    }
 </style>
 
+<svelte:head>
+   <link rel="icon" type="image/png" href="favicon.png" />
+   <title>ASH 2020 Coming Soon - AmmoSeek.com</title>
+</svelte:head>
 <header class="header-image">
    <div class="header-content">
       <h1>ASH2020</h1>
